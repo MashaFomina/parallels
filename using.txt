@@ -1,0 +1,39 @@
+// monitor process and threads
+masha@masha-Aspire-E5-573G:~/parallels$ top -H -p 8969
+%CPU -- CPU Usage : The percentage of your CPU that is being used by the process. By default, top displays this as a percentage of a single CPU. On multi-core systems, you can have percentages that are greater than 100%. For example, if 3 cores are at 60% use, top will show a CPU use of 180%.
+
+// Моя ошибка
+clock(). It returns the processor time of your program's execution. What you are looking for is the wall time of your program's execution. In sequential code, these are the same, but with multiple cores that is not at all true
+clock() returns the total CPU time spent in all threads. If you run with four threads and each runs for 1/4 of the time, clock() will still return the same value since 4*(1/4) = 1. You should be measuring the wall-clock time instead.
+Replace calls to clock() with omp_get_wtime() or gettimeofday(). They both provide high precision wall-clock timing.
+
+
+masha@masha-Aspire-E5-573G:~/parallels$ g++ generateTests.cpp -o generateTests -std=c++11 -w
+masha@masha-Aspire-E5-573G:~/parallels$ ./generateTests
+masha@masha-Aspire-E5-573G:~/parallels$ g++ openMPSort.cpp -o openMPSort -std=c++11 -fopenmp
+masha@masha-Aspire-E5-573G:~/parallels$ g++ pthreadsSort.cpp -o pthreadsSort -std=c++11 -pthread
+masha@masha-Aspire-E5-573G:~/parallels$ ./runScript.py pthreadsSort tests/testNorm25000000 4
+
+masha@masha-Aspire-E5-573G:~/parallels$ sudo ./pthreadsSort tests/testNorm25000000.txt 4
+Time spent for parallel part (ms): 1902.24
+Time spent (ms): 2578.29
+masha@masha-Aspire-E5-573G:~/parallels$ sudo ./pthreadsSort tests/testNorm25000000.txt 2
+Time spent for parallel part (ms): 2350.38
+Time spent (ms): 2731.58
+masha@masha-Aspire-E5-573G:~/parallels$ sudo ./pthreadsSort tests/testNorm25000000.txt 1
+Time spent for parallel part (ms): 4508.99
+Time spent (ms): 4509.08
+masha@masha-Aspire-E5-573G:~/parallels$ sudo ./openMPSort tests/testNorm25000000.txt 1
+Time spent for parallel part (ms): 4558.53
+Time spent (ms): 4558.61
+masha@masha-Aspire-E5-573G:~/parallels$ sudo ./openMPSort tests/testNorm25000000.txt 2
+Time spent for parallel part (ms): 2795.25
+Time spent (ms): 3176.16
+masha@masha-Aspire-E5-573G:~/parallels$ sudo ./openMPSort tests/testNorm25000000.txt 4
+Time spent for parallel part (ms): 1917.89
+Time spent (ms): 2598.29
+masha@masha-Aspire-E5-573G:~/parallels$ sudo ./mergeSort tests/testNorm25000000.txt
+Time spent (ms): 4420.95
+
+
+masha@masha-Aspire-E5-573G:~/parallels$ sudo ./runTestFull.py 10 > results.txt

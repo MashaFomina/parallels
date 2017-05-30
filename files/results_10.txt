@@ -1,0 +1,557 @@
+Repeats: 10
+
+Program: /home/masha/parallels/mergeSort, fileName: /home/masha/parallels/tests/testUniform1000.txt, N: 1000
+1 threads : M = 0.1153, D = 0.00010, interval = [0.1090, 0.1216]
+
+Program: /home/masha/parallels/mergeSort, fileName: /home/masha/parallels/tests/testExp1000.txt, N: 1000
+1 threads : M = 0.1116, D = 0.00004, interval = [0.1074, 0.1158]
+
+Program: /home/masha/parallels/mergeSort, fileName: /home/masha/parallels/tests/testNorm1000.txt, N: 1000
+1 threads : M = 0.1111, D = 0.00001, interval = [0.1088, 0.1134]
+
+Program: /home/masha/parallels/mergeSort, fileName: /home/masha/parallels/tests/testUniform100000.txt, N: 100000
+1 threads : M = 14.9716, D = 0.78238, interval = [14.4166, 15.5265]
+
+Program: /home/masha/parallels/mergeSort, fileName: /home/masha/parallels/tests/testExp100000.txt, N: 100000
+1 threads : M = 14.2673, D = 0.03502, interval = [14.1499, 14.3847]
+
+Program: /home/masha/parallels/mergeSort, fileName: /home/masha/parallels/tests/testNorm100000.txt, N: 100000
+1 threads : M = 14.5939, D = 0.03657, interval = [14.4740, 14.7139]
+
+Program: /home/masha/parallels/mergeSort, fileName: /home/masha/parallels/tests/testUniform250000.txt, N: 250000
+1 threads : M = 37.9179, D = 0.10168, interval = [37.7178, 38.1180]
+
+Program: /home/masha/parallels/mergeSort, fileName: /home/masha/parallels/tests/testExp250000.txt, N: 250000
+1 threads : M = 36.7927, D = 0.25432, interval = [36.4763, 37.1091]
+
+Program: /home/masha/parallels/mergeSort, fileName: /home/masha/parallels/tests/testNorm250000.txt, N: 250000
+1 threads : M = 37.7284, D = 0.38953, interval = [37.3368, 38.1200]
+
+Program: /home/masha/parallels/mergeSort, fileName: /home/masha/parallels/tests/testUniform500000.txt, N: 500000
+1 threads : M = 78.3440, D = 0.67996, interval = [77.8267, 78.8613]
+
+Program: /home/masha/parallels/mergeSort, fileName: /home/masha/parallels/tests/testExp500000.txt, N: 500000
+1 threads : M = 80.3268, D = 0.66663, interval = [79.8145, 80.8390]
+
+Program: /home/masha/parallels/mergeSort, fileName: /home/masha/parallels/tests/testNorm500000.txt, N: 500000
+1 threads : M = 81.2220, D = 13.65204, interval = [78.9038, 83.5401]
+
+Program: /home/masha/parallels/mergeSort, fileName: /home/masha/parallels/tests/testUniform25000000.txt, N: 25000000
+1 threads : M = 4472.8020, D = 476.96528, interval = [4459.1000, 4486.5040]
+
+Program: /home/masha/parallels/mergeSort, fileName: /home/masha/parallels/tests/testExp25000000.txt, N: 25000000
+1 threads : M = 4377.0540, D = 2357.42087, interval = [4346.5919, 4407.5161]
+
+Program: /home/masha/parallels/mergeSort, fileName: /home/masha/parallels/tests/testNorm25000000.txt, N: 25000000
+1 threads : M = 4449.0090, D = 234.14430, interval = [4439.4087, 4458.6093]
+
+Program: /home/masha/parallels/openMPSort, fileName: /home/masha/parallels/tests/testUniform1000.txt, N: 1000
+1 threads : M = 0.2511, D = 0.00008, interval = [0.2456, 0.2565]
+1 threads (just parallel part): M = 0.2107, D = 0.00002, interval = [0.2076, 0.2138]
+
+2 threads : M = 0.2152, D = 0.00024, interval = [0.2055, 0.2249]
+2 threads (just parallel part): M = 0.1414, D = 0.00016, interval = [0.1335, 0.1493]
+
+4 threads : M = 0.1980, D = 0.00029, interval = [0.1873, 0.2088]
+4 threads (just parallel part): M = 0.0957, D = 0.00002, interval = [0.0932, 0.0982]
+
+8 threads : M = 0.2425, D = 0.00014, interval = [0.2350, 0.2499]
+8 threads (just parallel part): M = 0.0986, D = 0.00015, interval = [0.0909, 0.1063]
+
+16 threads : M = 0.3617, D = 0.02322, interval = [0.2661, 0.4574]
+16 threads (just parallel part): M = 0.1335, D = 0.01808, interval = [0.0492, 0.2179]
+
+
+Program: /home/masha/parallels/openMPSort, fileName: /home/masha/parallels/tests/testExp1000.txt, N: 1000
+1 threads : M = 0.2489, D = 0.00007, interval = [0.2438, 0.2541]
+1 threads (just parallel part): M = 0.2097, D = 0.00009, interval = [0.2038, 0.2157]
+
+2 threads : M = 0.2070, D = 0.00005, interval = [0.2025, 0.2116]
+2 threads (just parallel part): M = 0.1358, D = 0.00004, interval = [0.1320, 0.1397]
+
+4 threads : M = 0.1938, D = 0.00002, interval = [0.1907, 0.1969]
+4 threads (just parallel part): M = 0.0967, D = 0.00000, interval = [0.0956, 0.0978]
+
+8 threads : M = 0.2427, D = 0.00016, interval = [0.2349, 0.2506]
+8 threads (just parallel part): M = 0.0957, D = 0.00003, interval = [0.0923, 0.0990]
+
+16 threads : M = 0.3108, D = 0.00009, interval = [0.3048, 0.3168]
+16 threads (just parallel part): M = 0.0907, D = 0.00000, interval = [0.0897, 0.0918]
+
+
+Program: /home/masha/parallels/openMPSort, fileName: /home/masha/parallels/tests/testNorm1000.txt, N: 1000
+1 threads : M = 0.2526, D = 0.00014, interval = [0.2451, 0.2601]
+1 threads (just parallel part): M = 0.2109, D = 0.00009, interval = [0.2050, 0.2167]
+
+2 threads : M = 0.2125, D = 0.00007, interval = [0.2073, 0.2177]
+2 threads (just parallel part): M = 0.1358, D = 0.00002, interval = [0.1329, 0.1386]
+
+4 threads : M = 0.1969, D = 0.00023, interval = [0.1874, 0.2065]
+4 threads (just parallel part): M = 0.1013, D = 0.00024, interval = [0.0916, 0.1110]
+
+8 threads : M = 0.2395, D = 0.00020, interval = [0.2306, 0.2485]
+8 threads (just parallel part): M = 0.0951, D = 0.00005, interval = [0.0907, 0.0996]
+
+16 threads : M = 0.3121, D = 0.00013, interval = [0.3051, 0.3191]
+16 threads (just parallel part): M = 0.0911, D = 0.00001, interval = [0.0887, 0.0935]
+
+
+Program: /home/masha/parallels/openMPSort, fileName: /home/masha/parallels/tests/testUniform100000.txt, N: 100000
+1 threads : M = 15.9452, D = 0.02317, interval = [15.8497, 16.0407]
+1 threads (just parallel part): M = 15.8922, D = 0.02088, interval = [15.8015, 15.9828]
+
+2 threads : M = 13.2624, D = 0.00941, interval = [13.2015, 13.3233]
+2 threads (just parallel part): M = 10.6666, D = 0.00900, interval = [10.6070, 10.7261]
+
+4 threads : M = 9.4615, D = 0.00095, interval = [9.4422, 9.4809]
+4 threads (just parallel part): M = 5.8111, D = 0.00013, interval = [5.8038, 5.8183]
+
+8 threads : M = 11.4714, D = 0.05003, interval = [11.3310, 11.6117]
+8 threads (just parallel part): M = 5.4746, D = 0.00010, interval = [5.4683, 5.4809]
+
+16 threads : M = 16.2367, D = 0.00098, interval = [16.2171, 16.2563]
+16 threads (just parallel part): M = 5.3197, D = 0.00005, interval = [5.3152, 5.3241]
+
+
+Program: /home/masha/parallels/openMPSort, fileName: /home/masha/parallels/tests/testExp100000.txt, N: 100000
+1 threads : M = 15.5097, D = 0.05311, interval = [15.3651, 15.6543]
+1 threads (just parallel part): M = 15.4585, D = 0.05271, interval = [15.3145, 15.6026]
+
+2 threads : M = 12.9859, D = 0.00239, interval = [12.9552, 13.0166]
+2 threads (just parallel part): M = 10.3880, D = 0.00138, interval = [10.3647, 10.4113]
+
+4 threads : M = 9.3885, D = 0.02953, interval = [9.2807, 9.4963]
+4 threads (just parallel part): M = 5.6744, D = 0.00012, interval = [5.6674, 5.6814]
+
+8 threads : M = 11.2792, D = 0.00133, interval = [11.2563, 11.3021]
+8 threads (just parallel part): M = 5.3480, D = 0.00020, interval = [5.3392, 5.3568]
+
+16 threads : M = 16.1768, D = 0.00343, interval = [16.1401, 16.2136]
+16 threads (just parallel part): M = 5.2172, D = 0.00011, interval = [5.2106, 5.2238]
+
+
+Program: /home/masha/parallels/openMPSort, fileName: /home/masha/parallels/tests/testNorm100000.txt, N: 100000
+1 threads : M = 15.8117, D = 0.01579, interval = [15.7328, 15.8905]
+1 threads (just parallel part): M = 15.7594, D = 0.01483, interval = [15.6830, 15.8358]
+
+2 threads : M = 13.2188, D = 0.01750, interval = [13.1358, 13.3018]
+2 threads (just parallel part): M = 10.6036, D = 0.01729, interval = [10.5211, 10.6861]
+
+4 threads : M = 9.4294, D = 0.00127, interval = [9.4070, 9.4518]
+4 threads (just parallel part): M = 5.7578, D = 0.00003, interval = [5.7546, 5.7611]
+
+8 threads : M = 11.4255, D = 0.00574, interval = [11.3779, 11.4730]
+8 threads (just parallel part): M = 5.4226, D = 0.00010, interval = [5.4163, 5.4290]
+
+16 threads : M = 16.3479, D = 0.04723, interval = [16.2115, 16.4842]
+16 threads (just parallel part): M = 5.2777, D = 0.00014, interval = [5.2703, 5.2851]
+
+
+Program: /home/masha/parallels/openMPSort, fileName: /home/masha/parallels/tests/testUniform250000.txt, N: 250000
+1 threads : M = 38.8719, D = 0.08232, interval = [38.6919, 39.0519]
+1 threads (just parallel part): M = 38.8028, D = 0.08156, interval = [38.6236, 38.9820]
+
+2 threads : M = 32.7110, D = 0.06639, interval = [32.5493, 32.8727]
+2 threads (just parallel part): M = 27.8420, D = 0.06578, interval = [27.6810, 28.0029]
+
+4 threads : M = 22.4877, D = 0.01787, interval = [22.4038, 22.5716]
+4 threads (just parallel part): M = 14.7640, D = 0.00491, interval = [14.7201, 14.8080]
+
+8 threads : M = 27.9769, D = 0.01194, interval = [27.9083, 28.0454]
+8 threads (just parallel part): M = 14.4327, D = 0.00030, interval = [14.4219, 14.4436]
+
+16 threads : M = 39.6801, D = 0.02483, interval = [39.5812, 39.7789]
+16 threads (just parallel part): M = 13.6069, D = 0.00030, interval = [13.5961, 13.6177]
+
+
+Program: /home/masha/parallels/openMPSort, fileName: /home/masha/parallels/tests/testExp250000.txt, N: 250000
+1 threads : M = 37.6637, D = 0.08776, interval = [37.4778, 37.8496]
+1 threads (just parallel part): M = 37.5984, D = 0.08527, interval = [37.4152, 37.7816]
+
+2 threads : M = 32.2884, D = 0.91536, interval = [31.6881, 32.8887]
+2 threads (just parallel part): M = 27.4025, D = 0.91929, interval = [26.8010, 28.0041]
+
+4 threads : M = 22.1295, D = 0.02558, interval = [22.0291, 22.2299]
+4 threads (just parallel part): M = 14.3914, D = 0.00110, interval = [14.3706, 14.4122]
+
+8 threads : M = 27.8447, D = 0.37663, interval = [27.4597, 28.2298]
+8 threads (just parallel part): M = 14.2872, D = 0.38913, interval = [13.8958, 14.6786]
+
+16 threads : M = 39.5438, D = 0.18502, interval = [39.2739, 39.8136]
+16 threads (just parallel part): M = 13.2669, D = 0.00013, interval = [13.2598, 13.2740]
+
+
+Program: /home/masha/parallels/openMPSort, fileName: /home/masha/parallels/tests/testNorm250000.txt, N: 250000
+1 threads : M = 38.5297, D = 0.05943, interval = [38.3768, 38.6827]
+1 threads (just parallel part): M = 38.4631, D = 0.05874, interval = [38.3110, 38.6151]
+
+2 threads : M = 32.3232, D = 0.00327, interval = [32.2873, 32.3591]
+2 threads (just parallel part): M = 27.4436, D = 0.00385, interval = [27.4046, 27.4825]
+
+4 threads : M = 22.6622, D = 0.27534, interval = [22.3330, 22.9914]
+4 threads (just parallel part): M = 14.7991, D = 0.28798, interval = [14.4624, 15.1358]
+
+8 threads : M = 27.9366, D = 0.06026, interval = [27.7826, 28.0906]
+8 threads (just parallel part): M = 14.3129, D = 0.00025, interval = [14.3030, 14.3228]
+
+16 threads : M = 39.7317, D = 0.20947, interval = [39.4446, 40.0189]
+16 threads (just parallel part): M = 13.6277, D = 0.20587, interval = [13.3431, 13.9124]
+
+
+Program: /home/masha/parallels/openMPSort, fileName: /home/masha/parallels/tests/testUniform500000.txt, N: 500000
+1 threads : M = 81.0865, D = 0.22120, interval = [80.7914, 81.3816]
+1 threads (just parallel part): M = 81.0065, D = 0.22090, interval = [80.7117, 81.3014]
+
+2 threads : M = 65.4813, D = 0.42433, interval = [65.0726, 65.8900]
+2 threads (just parallel part): M = 56.8098, D = 0.40404, interval = [56.4110, 57.2086]
+
+4 threads : M = 45.9060, D = 0.04246, interval = [45.7767, 46.0352]
+4 threads (just parallel part): M = 31.4493, D = 0.03929, interval = [31.3249, 31.5737]
+
+8 threads : M = 55.8437, D = 0.33578, interval = [55.4801, 56.2072]
+8 threads (just parallel part): M = 29.3816, D = 0.00159, interval = [29.3566, 29.4066]
+
+16 threads : M = 80.0876, D = 0.08655, interval = [79.9031, 80.2722]
+16 threads (just parallel part): M = 28.8482, D = 0.08538, interval = [28.6649, 29.0316]
+
+
+Program: /home/masha/parallels/openMPSort, fileName: /home/masha/parallels/tests/testExp500000.txt, N: 500000
+1 threads : M = 78.6951, D = 0.25249, interval = [78.3799, 79.0104]
+1 threads (just parallel part): M = 78.6144, D = 0.25373, interval = [78.2984, 78.9304]
+
+2 threads : M = 63.1892, D = 10.30407, interval = [61.1753, 65.2031]
+2 threads (just parallel part): M = 54.5144, D = 10.40518, interval = [52.4906, 56.5382]
+
+4 threads : M = 45.3170, D = 0.10235, interval = [45.1163, 45.5177]
+4 threads (just parallel part): M = 30.7315, D = 0.00660, interval = [30.6805, 30.7825]
+
+8 threads : M = 63.5293, D = 666.69971, interval = [47.3297, 79.7290]
+8 threads (just parallel part): M = 37.0210, D = 650.58521, interval = [21.0183, 53.0237]
+
+16 threads : M = 79.8045, D = 0.36781, interval = [79.4240, 80.1850]
+16 threads (just parallel part): M = 28.0761, D = 0.00013, interval = [28.0689, 28.0833]
+
+
+Program: /home/masha/parallels/openMPSort, fileName: /home/masha/parallels/tests/testNorm500000.txt, N: 500000
+1 threads : M = 80.4424, D = 0.56861, interval = [79.9693, 80.9155]
+1 threads (just parallel part): M = 80.3621, D = 0.56624, interval = [79.8900, 80.8343]
+
+2 threads : M = 64.8775, D = 0.06541, interval = [64.7170, 65.0379]
+2 threads (just parallel part): M = 56.1294, D = 0.04244, interval = [56.0002, 56.2587]
+
+4 threads : M = 45.9985, D = 0.72644, interval = [45.4637, 46.5332]
+4 threads (just parallel part): M = 31.3490, D = 0.30938, interval = [31.0000, 31.6979]
+
+8 threads : M = 55.4635, D = 0.03101, interval = [55.3530, 55.5740]
+8 threads (just parallel part): M = 29.1450, D = 0.00087, interval = [29.1265, 29.1635]
+
+16 threads : M = 80.0208, D = 0.12978, interval = [79.7948, 80.2468]
+16 threads (just parallel part): M = 28.5303, D = 0.00020, interval = [28.5214, 28.5391]
+
+
+Program: /home/masha/parallels/openMPSort, fileName: /home/masha/parallels/tests/testUniform25000000.txt, N: 25000000
+1 threads : M = 4561.6890, D = 161.98243, interval = [4553.7040, 4569.6740]
+1 threads (just parallel part): M = 4561.6100, D = 161.96509, interval = [4553.6254, 4569.5946]
+
+2 threads : M = 3206.3780, D = 116960.33853, interval = [2991.8120, 3420.9440]
+2 threads (just parallel part): M = 2824.5310, D = 117847.35985, interval = [2609.1529, 3039.9091]
+
+4 threads : M = 2604.7690, D = 3121.72183, interval = [2569.7149, 2639.8231]
+4 threads (just parallel part): M = 1911.8310, D = 490.49192, interval = [1897.9360, 1925.7260]
+
+8 threads : M = 3109.9010, D = 662.24394, interval = [3093.7555, 3126.0465]
+8 threads (just parallel part): M = 1834.7590, D = 549.54212, interval = [1820.0514, 1849.4666]
+
+16 threads : M = 4369.0130, D = 2399.41000, interval = [4338.2808, 4399.7452]
+16 threads (just parallel part): M = 1820.0680, D = 2.01828, interval = [1819.1767, 1820.9593]
+
+
+Program: /home/masha/parallels/openMPSort, fileName: /home/masha/parallels/tests/testExp25000000.txt, N: 25000000
+1 threads : M = 4451.6120, D = 360.67613, interval = [4439.6968, 4463.5272]
+1 threads (just parallel part): M = 4451.5350, D = 360.55803, interval = [4439.6218, 4463.4482]
+
+2 threads : M = 3086.3250, D = 125711.89998, interval = [2863.8763, 3308.7737]
+2 threads (just parallel part): M = 2697.1350, D = 131614.30043, interval = [2469.5240, 2924.7460]
+
+4 threads : M = 2560.7870, D = 271.65251, interval = [2550.4463, 2571.1277]
+4 threads (just parallel part): M = 1883.5250, D = 436.50361, interval = [1870.4170, 1896.6330]
+
+8 threads : M = 3059.3460, D = 1119.25580, interval = [3038.3563, 3080.3357]
+8 threads (just parallel part): M = 1788.2420, D = 982.85395, interval = [1768.5728, 1807.9112]
+
+16 threads : M = 4332.8590, D = 1289.41763, interval = [4310.3302, 4355.3878]
+16 threads (just parallel part): M = 1787.9260, D = 7.20136, interval = [1786.2424, 1789.6096]
+
+
+Program: /home/masha/parallels/openMPSort, fileName: /home/masha/parallels/tests/testNorm25000000.txt, N: 25000000
+1 threads : M = 4526.2370, D = 198.19158, interval = [4517.4045, 4535.0695]
+1 threads (just parallel part): M = 4526.1610, D = 198.15741, interval = [4517.3292, 4534.9928]
+
+2 threads : M = 3163.5240, D = 115861.79287, interval = [2949.9680, 3377.0800]
+2 threads (just parallel part): M = 2780.9850, D = 116933.94021, interval = [2566.4432, 2995.5268]
+
+4 threads : M = 2594.5570, D = 157.14680, interval = [2586.6921, 2602.4219]
+4 threads (just parallel part): M = 1915.6040, D = 56.15258, interval = [1910.9026, 1920.3054]
+
+8 threads : M = 3103.0280, D = 2013.49840, interval = [3074.8755, 3131.1805]
+8 threads (just parallel part): M = 1834.3940, D = 1897.57187, interval = [1807.0639, 1861.7241]
+
+16 threads : M = 4335.4010, D = 508.85497, interval = [4321.2483, 4349.5537]
+16 threads (just parallel part): M = 1797.9930, D = 449.10920, interval = [1784.6971, 1811.2889]
+
+
+Program: /home/masha/parallels/pthreadsSort, fileName: /home/masha/parallels/tests/testUniform1000.txt, N: 1000
+1 threads : M = 0.2087, D = 0.00043, interval = [0.1956, 0.2217]
+1 threads (just parallel part): M = 0.1683, D = 0.00036, interval = [0.1565, 0.1802]
+
+2 threads : M = 0.2128, D = 0.00065, interval = [0.1968, 0.2288]
+2 threads (just parallel part): M = 0.1332, D = 0.00040, interval = [0.1206, 0.1458]
+
+4 threads : M = 0.4000, D = 0.20990, interval = [0.1126, 0.6874]
+4 threads (just parallel part): M = 0.2894, D = 0.21162, interval = [0.0008, 0.5780]
+
+8 threads : M = 0.3155, D = 0.00072, interval = [0.2986, 0.3324]
+8 threads (just parallel part): M = 0.1845, D = 0.00044, interval = [0.1714, 0.1976]
+
+16 threads : M = 0.4633, D = 0.00078, interval = [0.4458, 0.4808]
+16 threads (just parallel part): M = 0.2705, D = 0.00067, interval = [0.2543, 0.2867]
+
+
+Program: /home/masha/parallels/pthreadsSort, fileName: /home/masha/parallels/tests/testExp1000.txt, N: 1000
+1 threads : M = 0.1931, D = 0.00022, interval = [0.1837, 0.2025]
+1 threads (just parallel part): M = 0.1564, D = 0.00018, interval = [0.1480, 0.1648]
+
+2 threads : M = 0.2159, D = 0.00095, interval = [0.1966, 0.2352]
+2 threads (just parallel part): M = 0.1388, D = 0.00065, interval = [0.1229, 0.1548]
+
+4 threads : M = 0.2122, D = 0.00028, interval = [0.2017, 0.2227]
+4 threads (just parallel part): M = 0.1082, D = 0.00003, interval = [0.1049, 0.1115]
+
+8 threads : M = 0.2835, D = 0.00067, interval = [0.2672, 0.2997]
+8 threads (just parallel part): M = 0.1667, D = 0.00038, interval = [0.1545, 0.1790]
+
+16 threads : M = 0.4545, D = 0.00042, interval = [0.4417, 0.4674]
+16 threads (just parallel part): M = 0.2676, D = 0.00029, interval = [0.2570, 0.2783]
+
+
+Program: /home/masha/parallels/pthreadsSort, fileName: /home/masha/parallels/tests/testNorm1000.txt, N: 1000
+1 threads : M = 0.1873, D = 0.00014, interval = [0.1799, 0.1947]
+1 threads (just parallel part): M = 0.1517, D = 0.00009, interval = [0.1458, 0.1575]
+
+2 threads : M = 0.2077, D = 0.00058, interval = [0.1927, 0.2228]
+2 threads (just parallel part): M = 0.1311, D = 0.00040, interval = [0.1186, 0.1436]
+
+4 threads : M = 0.2212, D = 0.00004, interval = [0.2171, 0.2252]
+4 threads (just parallel part): M = 0.1119, D = 0.00006, interval = [0.1070, 0.1169]
+
+8 threads : M = 0.3243, D = 0.00163, interval = [0.2990, 0.3496]
+8 threads (just parallel part): M = 0.1960, D = 0.00092, interval = [0.1769, 0.2151]
+
+16 threads : M = 0.4564, D = 0.00062, interval = [0.4408, 0.4720]
+16 threads (just parallel part): M = 0.2640, D = 0.00050, interval = [0.2500, 0.2780]
+
+
+Program: /home/masha/parallels/pthreadsSort, fileName: /home/masha/parallels/tests/testUniform100000.txt, N: 100000
+1 threads : M = 15.1486, D = 0.00270, interval = [15.1160, 15.1812]
+1 threads (just parallel part): M = 15.1013, D = 0.00293, interval = [15.0674, 15.1353]
+
+2 threads : M = 9.4467, D = 0.00322, interval = [9.4110, 9.4823]
+2 threads (just parallel part): M = 7.8402, D = 0.00132, interval = [7.8174, 7.8630]
+
+4 threads : M = 8.6390, D = 0.00089, interval = [8.6203, 8.6577]
+4 threads (just parallel part): M = 5.7968, D = 0.00056, interval = [5.7820, 5.8116]
+
+8 threads : M = 10.9163, D = 0.04397, interval = [10.7847, 11.0478]
+8 threads (just parallel part): M = 5.5565, D = 0.00223, interval = [5.5269, 5.5861]
+
+16 threads : M = 16.6708, D = 0.08765, interval = [16.4851, 16.8565]
+16 threads (just parallel part): M = 5.7186, D = 0.00529, interval = [5.6730, 5.7643]
+
+
+Program: /home/masha/parallels/pthreadsSort, fileName: /home/masha/parallels/tests/testExp100000.txt, N: 100000
+1 threads : M = 14.6340, D = 0.00059, interval = [14.6187, 14.6493]
+1 threads (just parallel part): M = 14.5933, D = 0.00061, interval = [14.5779, 14.6088]
+
+2 threads : M = 9.2036, D = 0.00196, interval = [9.1758, 9.2314]
+2 threads (just parallel part): M = 7.5952, D = 0.00252, interval = [7.5637, 7.6267]
+
+4 threads : M = 8.5074, D = 0.00089, interval = [8.4886, 8.5262]
+4 threads (just parallel part): M = 5.6572, D = 0.00048, interval = [5.6434, 5.6710]
+
+8 threads : M = 11.0734, D = 0.23253, interval = [10.7708, 11.3759]
+8 threads (just parallel part): M = 5.5703, D = 0.15530, interval = [5.3230, 5.8175]
+
+16 threads : M = 16.4260, D = 0.07271, interval = [16.2569, 16.5952]
+16 threads (just parallel part): M = 5.6017, D = 0.00747, interval = [5.5475, 5.6559]
+
+
+Program: /home/masha/parallels/pthreadsSort, fileName: /home/masha/parallels/tests/testNorm100000.txt, N: 100000
+1 threads : M = 14.9828, D = 0.00048, interval = [14.9690, 14.9966]
+1 threads (just parallel part): M = 14.9386, D = 0.00047, interval = [14.9250, 14.9521]
+
+2 threads : M = 9.5434, D = 0.26787, interval = [9.2187, 9.8681]
+2 threads (just parallel part): M = 7.9164, D = 0.22711, interval = [7.6174, 8.2154]
+
+4 threads : M = 8.7163, D = 0.03879, interval = [8.5927, 8.8398]
+4 threads (just parallel part): M = 5.7570, D = 0.00096, interval = [5.7375, 5.7765]
+
+8 threads : M = 10.8891, D = 0.01448, interval = [10.8136, 10.9646]
+8 threads (just parallel part): M = 5.5495, D = 0.00254, interval = [5.5179, 5.5811]
+
+16 threads : M = 16.4866, D = 0.11131, interval = [16.2773, 16.6959]
+16 threads (just parallel part): M = 5.6358, D = 0.01518, interval = [5.5585, 5.7131]
+
+
+Program: /home/masha/parallels/pthreadsSort, fileName: /home/masha/parallels/tests/testUniform250000.txt, N: 250000
+1 threads : M = 37.9569, D = 0.01099, interval = [37.8911, 38.0227]
+1 threads (just parallel part): M = 37.8959, D = 0.01053, interval = [37.8315, 37.9603]
+
+2 threads : M = 25.0606, D = 1.78965, interval = [24.2213, 25.8999]
+2 threads (just parallel part): M = 21.0683, D = 1.29166, interval = [20.3552, 21.7813]
+
+4 threads : M = 21.6170, D = 0.05673, interval = [21.4675, 21.7664]
+4 threads (just parallel part): M = 14.6329, D = 0.00040, interval = [14.6204, 14.6455]
+
+8 threads : M = 27.4828, D = 0.09884, interval = [27.2855, 27.6800]
+8 threads (just parallel part): M = 14.5377, D = 0.01136, interval = [14.4709, 14.6046]
+
+16 threads : M = 40.4490, D = 0.07860, interval = [40.2731, 40.6249]
+16 threads (just parallel part): M = 14.1248, D = 0.05312, interval = [13.9802, 14.2694]
+
+
+Program: /home/masha/parallels/pthreadsSort, fileName: /home/masha/parallels/tests/testExp250000.txt, N: 250000
+1 threads : M = 36.7936, D = 0.01465, interval = [36.7176, 36.8695]
+1 threads (just parallel part): M = 36.7301, D = 0.01380, interval = [36.6564, 36.8038]
+
+2 threads : M = 24.0814, D = 0.60432, interval = [23.5937, 24.5692]
+2 threads (just parallel part): M = 20.1474, D = 0.52936, interval = [19.6910, 20.6039]
+
+4 threads : M = 21.3385, D = 0.09784, interval = [21.1422, 21.5347]
+4 threads (just parallel part): M = 14.4063, D = 0.10789, interval = [14.2002, 14.6123]
+
+8 threads : M = 26.9774, D = 0.00700, interval = [26.9249, 27.0299]
+8 threads (just parallel part): M = 14.1136, D = 0.00219, interval = [14.0843, 14.1429]
+
+16 threads : M = 40.2980, D = 0.47996, interval = [39.8634, 40.7327]
+16 threads (just parallel part): M = 13.8995, D = 0.16716, interval = [13.6430, 14.1560]
+
+
+Program: /home/masha/parallels/pthreadsSort, fileName: /home/masha/parallels/tests/testNorm250000.txt, N: 250000
+1 threads : M = 37.9491, D = 0.40564, interval = [37.5495, 38.3487]
+1 threads (just parallel part): M = 37.8855, D = 0.39338, interval = [37.4920, 38.2790]
+
+2 threads : M = 24.5910, D = 0.67096, interval = [24.0771, 25.1049]
+2 threads (just parallel part): M = 20.6198, D = 0.62411, interval = [20.1242, 21.1155]
+
+4 threads : M = 21.5121, D = 0.01054, interval = [21.4477, 21.5765]
+4 threads (just parallel part): M = 14.5565, D = 0.00174, interval = [14.5304, 14.5827]
+
+8 threads : M = 27.3716, D = 0.19889, interval = [27.0918, 27.6514]
+8 threads (just parallel part): M = 14.4713, D = 0.14214, interval = [14.2348, 14.7078]
+
+16 threads : M = 40.1515, D = 0.35809, interval = [39.7761, 40.5270]
+16 threads (just parallel part): M = 14.0206, D = 0.03449, interval = [13.9041, 14.1371]
+
+
+Program: /home/masha/parallels/pthreadsSort, fileName: /home/masha/parallels/tests/testUniform500000.txt, N: 500000
+1 threads : M = 80.3016, D = 0.65207, interval = [79.7950, 80.8082]
+1 threads (just parallel part): M = 80.2288, D = 0.64717, interval = [79.7241, 80.7335]
+
+2 threads : M = 49.4362, D = 0.41189, interval = [49.0336, 49.8389]
+2 threads (just parallel part): M = 41.7351, D = 0.43447, interval = [41.3216, 42.1487]
+
+4 threads : M = 45.2853, D = 0.54557, interval = [44.8219, 45.7487]
+4 threads (just parallel part): M = 31.4382, D = 0.39801, interval = [31.0423, 31.8340]
+
+8 threads : M = 54.8980, D = 0.18900, interval = [54.6253, 55.1708]
+8 threads (just parallel part): M = 29.3576, D = 0.13796, interval = [29.1246, 29.5907]
+
+16 threads : M = 80.2559, D = 0.31892, interval = [79.9016, 80.6102]
+16 threads (just parallel part): M = 29.1174, D = 0.11474, interval = [28.9048, 29.3299]
+
+
+Program: /home/masha/parallels/pthreadsSort, fileName: /home/masha/parallels/tests/testExp500000.txt, N: 500000
+1 threads : M = 77.7171, D = 0.21738, interval = [77.4246, 78.0096]
+1 threads (just parallel part): M = 77.6401, D = 0.22177, interval = [77.3446, 77.9355]
+
+2 threads : M = 47.9702, D = 0.36185, interval = [47.5928, 48.3476]
+2 threads (just parallel part): M = 40.2428, D = 0.37447, interval = [39.8589, 40.6267]
+
+4 threads : M = 44.8704, D = 0.28976, interval = [44.5327, 45.2082]
+4 threads (just parallel part): M = 30.6572, D = 0.08024, interval = [30.4795, 30.8349]
+
+8 threads : M = 54.2063, D = 0.11754, interval = [53.9912, 54.4214]
+8 threads (just parallel part): M = 28.6298, D = 0.02767, interval = [28.5254, 28.7341]
+
+16 threads : M = 79.9843, D = 0.69020, interval = [79.4631, 80.5056]
+16 threads (just parallel part): M = 28.4442, D = 0.17903, interval = [28.1787, 28.7096]
+
+
+Program: /home/masha/parallels/pthreadsSort, fileName: /home/masha/parallels/tests/testNorm500000.txt, N: 500000
+1 threads : M = 79.4466, D = 0.54397, interval = [78.9839, 79.9093]
+1 threads (just parallel part): M = 79.3680, D = 0.54531, interval = [78.9047, 79.8313]
+
+2 threads : M = 49.2566, D = 0.74400, interval = [48.7154, 49.7977]
+2 threads (just parallel part): M = 41.4783, D = 0.63383, interval = [40.9788, 41.9778]
+
+4 threads : M = 45.0036, D = 0.21578, interval = [44.7121, 45.2950]
+4 threads (just parallel part): M = 31.1174, D = 0.07478, interval = [30.9458, 31.2890]
+
+8 threads : M = 54.9555, D = 0.28219, interval = [54.6222, 55.2888]
+8 threads (just parallel part): M = 29.1039, D = 0.03083, interval = [28.9937, 29.2141]
+
+16 threads : M = 81.1510, D = 2.05887, interval = [80.2508, 82.0513]
+16 threads (just parallel part): M = 28.7749, D = 0.02152, interval = [28.6828, 28.8669]
+
+
+Program: /home/masha/parallels/pthreadsSort, fileName: /home/masha/parallels/tests/testUniform25000000.txt, N: 25000000
+1 threads : M = 4563.4210, D = 2049.00863, interval = [4535.0213, 4591.8207]
+1 threads (just parallel part): M = 4563.3450, D = 2049.73607, interval = [4534.9403, 4591.7497]
+
+2 threads : M = 2761.0350, D = 81.27263, interval = [2755.3789, 2766.6911]
+2 threads (just parallel part): M = 2379.6190, D = 92.64163, interval = [2373.5803, 2385.6577]
+
+4 threads : M = 2585.4930, D = 7.80480, interval = [2583.7402, 2587.2458]
+4 threads (just parallel part): M = 1912.0300, D = 0.67664, interval = [1911.5139, 1912.5461]
+
+8 threads : M = 3125.6010, D = 1558.34372, interval = [3100.8340, 3150.3680]
+8 threads (just parallel part): M = 1859.3190, D = 1409.40314, interval = [1835.7653, 1882.8727]
+
+16 threads : M = 4363.2670, D = 713.78533, interval = [4346.5050, 4380.0290]
+16 threads (just parallel part): M = 1840.5710, D = 507.57419, interval = [1826.4361, 1854.7059]
+
+
+Program: /home/masha/parallels/pthreadsSort, fileName: /home/masha/parallels/tests/testExp25000000.txt, N: 25000000
+1 threads : M = 4438.6100, D = 2378.08284, interval = [4408.0147, 4469.2053]
+1 threads (just parallel part): M = 4438.5300, D = 2378.04047, interval = [4407.9349, 4469.1251]
+
+2 threads : M = 2691.6210, D = 50.64785, interval = [2687.1560, 2696.0860]
+2 threads (just parallel part): M = 2309.5580, D = 26.09011, interval = [2306.3534, 2312.7626]
+
+4 threads : M = 2552.5430, D = 1396.22027, interval = [2529.0997, 2575.9863]
+4 threads (just parallel part): M = 1879.2910, D = 1362.88857, interval = [1856.1292, 1902.4528]
+
+8 threads : M = 3095.6550, D = 1651.28314, interval = [3070.1602, 3121.1498]
+8 threads (just parallel part): M = 1827.2280, D = 1514.25171, interval = [1802.8139, 1851.6421]
+
+16 threads : M = 4301.6210, D = 529.49401, interval = [4287.1842, 4316.0578]
+16 threads (just parallel part): M = 1770.2880, D = 664.79535, interval = [1754.1115, 1786.4645]
+
+
+Program: /home/masha/parallels/pthreadsSort, fileName: /home/masha/parallels/tests/testNorm25000000.txt, N: 25000000
+1 threads : M = 4561.3980, D = 5912.53522, interval = [4513.1556, 4609.6404]
+1 threads (just parallel part): M = 4561.3190, D = 5911.39097, interval = [4513.0813, 4609.5567]
+
+2 threads : M = 2736.0910, D = 18.06437, interval = [2733.4244, 2738.7576]
+2 threads (just parallel part): M = 2355.6130, D = 26.21038, interval = [2352.4010, 2358.8250]
+
+4 threads : M = 2597.8920, D = 2381.80673, interval = [2567.2727, 2628.5113]
+4 threads (just parallel part): M = 1903.7040, D = 1.77485, interval = [1902.8682, 1904.5398]
+
+8 threads : M = 3120.2000, D = 730.40978, interval = [3103.2439, 3137.1561]
+8 threads (just parallel part): M = 1847.8900, D = 759.98184, interval = [1830.5941, 1865.1859]
+
+16 threads : M = 4347.1520, D = 414.64193, interval = [4334.3765, 4359.9275]
+16 threads (just parallel part): M = 1810.6380, D = 456.51466, interval = [1797.2329, 1824.0431]
+
+
